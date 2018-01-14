@@ -32,8 +32,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:text="@string/make_everyday_decisions_easier"
+        android:textColor="#000000"
         android:textAlignment="center"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
     <ImageView
         android:id="@+id/image_eightBall"
@@ -41,8 +43,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:contentDescription="@string/eightBall"
         android:layout_marginTop="38dp"
+        android:contentDescription="@string/eightBall"
         app:srcCompat="@drawable/ball1"
         tools:ignore="HardcodedText"/>
 </RelativeLayout>
